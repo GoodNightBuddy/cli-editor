@@ -1,6 +1,6 @@
 {
   "name": "my-custom-cli",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "",
   "files": [
     "dist"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@my-custom-cli/local-client": "^6.0.0"
+    "@my-custom-cli/local-client": "^7.0.0"
   },
   "devDependencies": {
-    "@my-custom-cli/local-api": "^6.0.0",
+    "@my-custom-cli/local-api": "^7.0.0",
     "@types/node": "^18.15.3",
     "commander": "^10.0.0",
     "esbuild": "0.8.26",
