@@ -22,7 +22,7 @@ var serve = function (port, filename, dir, useProxy) {
     else {
         // Serve static build of react-client app
         // Find build directory of local-api inside node-modules and serve it.
-        var packagePath = require.resolve('local-client/build/index.html');
+        var packagePath = require.resolve('@my-custom-cli/local-client/build/index.html');
         app.use(express_1.default.static(path_1.default.dirname(packagePath)));
     }
     // for ability to catch error in cli

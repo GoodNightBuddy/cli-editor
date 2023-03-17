@@ -2,19 +2,28 @@
   "name": "my-custom-cli",
   "version": "1.0.0",
   "description": "",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc --watch --preserveWatchOutput"
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^10.0.0",
-    "@my-custom-cli/local-api": "^1.0.0"
+    "@my-custom-cli/local-client": "^1.0.0" 
   },
   "devDependencies": {
+    "@my-custom-cli/local-api": "^1.0.0",
+    "commander": "^10.0.0",
     "@types/node": "^18.15.3",
+    "esbuild": "0.8.26",
     "typescript": "^4.9.5"
   }
 }
