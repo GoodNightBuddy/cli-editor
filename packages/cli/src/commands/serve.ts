@@ -18,7 +18,7 @@ export const serveCommand = new Command()
       //await - for catching errors, because app.listen() of express is async
       await serve(+options.port, name, dir, !isProduction);
       console.log(`opened ${filename}. Navigate to http://localhost:${options.port} to edit the file`)
-    } catch (error: {message: string}) {
+    } catch (error: any) {
       if (error.code === 'EADDRINUSE') {
         console.error('Port is in use. Try running a different port.') 
       } else {
