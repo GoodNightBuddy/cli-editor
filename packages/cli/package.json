@@ -1,5 +1,5 @@
 {
-  "name": "my-custom-cli",
+  "name": "my-custom-cli1",
   "version": "10.0.0",
   "description": "",
   "files": [
@@ -26,5 +26,5 @@
     "esbuild": "0.8.26",
     "typescript": "^4.9.5"
   },
-  "gitHead": "1245f5c0e2e1a497e0b61c42be60ae1442a58ef1"
+  "gitHead": "f1c628ca9e03c6ed7e99b9e31111586681b249e8"
 }
