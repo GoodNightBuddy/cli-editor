@@ -1,6 +1,6 @@
 {
   "name": "@my-custom-cli/cli",
-  "version": "13.0.0",
+  "version": "14.0.0",
   "description": "",
   "files": [
     "dist"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@my-custom-cli/local-client": "^13.0.0"
+    "@my-custom-cli/local-client": "^14.0.0"
   },
   "devDependencies": {
-    "@my-custom-cli/local-api": "^13.0.0",
+    "@my-custom-cli/local-api": "^14.0.0",
     "@types/node": "^18.15.3",
     "commander": "^10.0.0",
     "esbuild": "0.8.26",
