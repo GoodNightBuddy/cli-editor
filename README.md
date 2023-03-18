@@ -3,6 +3,9 @@ Deployed online editor you can see on [_this_](https://github.com/GoodNightBuddy
 If you want to test it on your local machine from terminal follow instruction below.
 
 ## Featuress
+
+![Screenshot](./image.png)
+
 - Code editor similar to VSCode
 - Text editor
 - Import another libraries(such as React)
@@ -35,8 +38,3 @@ It will open app on http://localhost:3005/ and read  mybook.js in folder /myfold
 You can use:
 $ npx @my-custom-cli/cli serve D:\Mybook\ -p 8080
 It will creat  default file notebook.js in specified folder and run app on http://localhost:8080/. 
-
-
-### Screenshot
-
-![Screenshot](./image.png)
