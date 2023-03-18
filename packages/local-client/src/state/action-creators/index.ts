@@ -80,7 +80,7 @@ export const fetchCells = () => {
 
     try {
       const {data}: {data: Cell[]} = await axios.get('/cells');
-
+      if(!data.length) return;
       dispatch({
         type: ActionType.FETCH_CELLS_COMPLETE,
         payload: data
