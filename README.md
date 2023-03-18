@@ -38,4 +38,5 @@ It will creat  default file notebook.js in specified folder and run app on http:
 
 
 ### Screenshot
-[Screenshot](./image.png)
+
+![Screenshot](./image.png)
