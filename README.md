@@ -12,8 +12,7 @@ If you want to test it on your local machine from terminal follow instruction be
 
 ## Install
 
-- npm i -g @my-custom-cli/cli
-- Or use npx @my-custom-cli/cli <command>
+- Use npx @my-custom-cli/cli <command>
 
 ## Usage
 App starts with one command: $serve. You can change default port or file only before running app.
